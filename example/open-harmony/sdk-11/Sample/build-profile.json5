@@ -4,13 +4,13 @@
       {
         "name": "default",
         "material": {
-          "storePassword": "0000001B32139C7B0CF88ECEF8BC17A20CF3B0248EDACC9A35A5B010EF2CEA1BCF2D0B6B787F722CD21C5B",
-          "certpath": "./.secret/default_Sample_ZlVeQZos8mspxZbFbZnVyf732f_twgPKWq0w0_cPEao=.cer",
+          "certpath": "./.secret/oniro-ci.cer",
+          "storePassword": "0000001BD5A16C997F0EF958596A946A060A50ED61DF4D945A74AB3C462CBCFBE5BA90427A3DEAC0D27D3E",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001B31FBD903B2DF5212AB9C89C0E95A058866575E064356D02A8DA9FE1DE702A4A80D34F0EBC5512E",
-          "profile": "./.secret/default_Sample_ZlVeQZos8mspxZbFbZnVyf732f_twgPKWq0w0_cPEao=.p7b",
+          "keyPassword": "0000001BACA49D623B16BE8A9C4C216A9ED64244F7255BC9AEF8C862264DDA900496AD36202857353771E8",
+          "profile": "./.secret/oniro-ci.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "./.secret/default_Sample_ZlVeQZos8mspxZbFbZnVyf732f_twgPKWq0w0_cPEao=.p12"
+          "storeFile": "./.secret/oniro-ci.p12"
         }
       }
     ],
