@@ -1,4 +1,4 @@
-name: Test oh-action with sdk-11
+name: Test oh-app-action with sdk-11
 
 on:
   push:
@@ -52,7 +52,7 @@ jobs:
           echo "See: https://github.com/eclipse-oniro4openharmony/oniro-planning/issues/5#issuecomment-2538648996"
           sed -i '' 's/"bundleName": "[^"]*"/"bundleName": "com.example.oniromathpunching"/' ./AppScope/app.json5
 
-      - name: Test oh-action
+      - name: Test oh-app-action
         uses: ./
         with:
           working-directory: ${{ env.EXAMPLE_PROJECT_PATH }}

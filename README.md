@@ -1,5 +1,5 @@
-# oh-action
-The `oh-action` is a GitHub Action that streamlines OpenHarmony development workflows by setting up the necessary development environment. It automatically installs the OpenHarmony SDK and provides essential command-line tools, enabling developers to build, test, and manage their OpenHarmony applications in CI/CD pipelines.
+# oh-app-action
+The `oh-app-action` is a GitHub Action that streamlines OpenHarmony development workflows by setting up the necessary development environment. It automatically installs the OpenHarmony SDK and provides essential command-line tools, enabling developers to build, test, and manage their OpenHarmony applications in CI/CD pipelines.
 
 ## Requirements
 - macOS runner (`runs-on: macos-latest`)
@@ -41,7 +41,7 @@ jobs:
         uses: actions/checkout@v4 
           
       - name: Setup OpenHarmony environment
-      - uses: Snapp-Mobile/oh-action@v0.1
+      - uses: eclipse-oniro4openharmony/oh-app-action@v0.1
 
       - name: Install dependencies
         run: ohpm install --all
@@ -92,8 +92,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4 # Checkout the repository content to the runner
 
-      - name: Build Project Using oh-action
-        uses: Snapp-Mobile/oh-action@main
+      - name: Build Project Using oh-app-action
+        uses: eclipse-oniro4openharmony/oh-app-action@main
         with:
           working-directory: ./Sample
 
